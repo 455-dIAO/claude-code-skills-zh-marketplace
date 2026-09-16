@@ -1,0 +1,152 @@
+{
+  "name": "claude-code-skills-zh",
+  "owner": {
+    "name": "laolaoshiren"
+  },
+  "metadata": {
+    "description": "Claude Code 中文 Skills 市场，本地适配版",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "api-tester",
+      "description": "依据真实契约生成并验证 API 测试",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/api-tester"]
+    },
+    {
+      "name": "changelog-gen",
+      "description": "从 Git 历史生成 CHANGELOG",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/changelog-gen"]
+    },
+    {
+      "name": "db-migrator",
+      "description": "Schema 对比与数据库迁移脚本生成",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/db-migrator"]
+    },
+    {
+      "name": "dep-auditor",
+      "description": "依赖漏洞、版本健康度与许可证审计",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/dep-auditor"]
+    },
+    {
+      "name": "ds-mapper",
+      "description": "生成带说明的项目目录结构地图",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/ds-mapper"]
+    },
+    {
+      "name": "env-manager",
+      "description": "扫描、校验和同步环境变量文件",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/env-manager"]
+    },
+    {
+      "name": "error-translator",
+      "description": "翻译并解释英文编程错误",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/error-translator"]
+    },
+    {
+      "name": "eslint-fix",
+      "description": "安全诊断和修复 ESLint 问题",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/eslint-fix"]
+    },
+    {
+      "name": "git-workflow",
+      "description": "安全处理 Git 提交、分支、推送、PR 与 rebase",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/git-workflow"]
+    },
+    {
+      "name": "github-actions-gen",
+      "description": "生成和修订 GitHub Actions 工作流",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/github-actions-gen"]
+    },
+    {
+      "name": "i18n-helper",
+      "description": "扫描硬编码文本并辅助国际化",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/i18n-helper"]
+    },
+    {
+      "name": "log-analyzer",
+      "description": "解析日志并定位异常模式和根因",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/log-analyzer"]
+    },
+    {
+      "name": "perf-profiler",
+      "description": "基于 profiler 证据分析性能问题",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/perf-profiler"]
+    },
+    {
+      "name": "refactor-advisor",
+      "description": "识别代码坏味道并提供重构方案",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/refactor-advisor"]
+    },
+    {
+      "name": "security-audit",
+      "description": "代码安全审计、漏洞与依赖检查",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/security-audit"]
+    },
+    {
+      "name": "skill-curator",
+      "description": "中文 Skill 收录与质量评估",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/skill-curator"]
+    },
+    {
+      "name": "test-generator",
+      "description": "依据真实代码契约生成并验证测试",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/test-generator"]
+    },
+    {
+      "name": "zh-code-reviewer",
+      "description": "生成详细的中文代码审查报告",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/zh-code-reviewer"]
+    },
+    {
+      "name": "zh-docgen",
+      "description": "从代码库生成中文技术文档",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/zh-docgen"]
+    },
+    {
+      "name": "zh-readme",
+      "description": "分析项目并生成高质量中文 README",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/zh-readme"]
+    }
+  ]
+}
